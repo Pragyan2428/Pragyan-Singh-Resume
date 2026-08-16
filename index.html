@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragyan Singh — Portfolio</title>
+    <meta name="description" content="Resume and portfolio of Pragyan Singh — full-stack developer, B.Tech Electronics & Computer Science, KIIT University.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scan-overlay" id="scan-overlay" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <span class="status-dot" aria-hidden="true"></span>
+                <div>
+                    <h1>Pragyan Singh</h1>
+                    <p class="tagline">// ECS undergrad @ KIIT · full stack intern @ YHills · GSSoC '26 contributor · team lead @ K-1000</p>
+                    <p class="location">Kanpur, Uttar Pradesh, India</p>
+                </div>
+            </div>
+            <button id="toggle-theme" type="button" aria-label="Toggle color theme">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+                <span id="theme-label">Dark</span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Section navigation">
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work-experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+                <li>
+                    <a href="admin.html" target="_blank" rel="noopener">
+                        Admin
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3h7v7M21 3l-9 9M5 3h4v4H5V3M5 15h4v4H5v-4M15 15h4v4h-4v-4"/></svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <p class="eyebrow">// about</p>
+                <h2>Summary</h2>
+                <p class="about-text">
+                    I am an <strong>Electronics and Computer Science</strong> undergrad at KIIT University who believes
+                    the best way to grow is to take on real responsibility — early and often. On the technical side, I am
+                    interning as a <strong>Full Stack Web Developer at YHills</strong>, building responsive web applications
+                    using industry-standard workflows. Alongside that, I am a <strong>GSSoC '26 contributor</strong>, working
+                    on open-source and AI/Agents track projects with mentors and developers across the globe. Outside of
+                    code, I lead a team of video editors at <strong>K-1000</strong>, KIIT's media society, managing content
+                    pipelines, project timelines, and deliverables across events, campaigns, and social platforms. I have
+                    also worked with USC.KIIT, Faxis, Wipro, and SmartED — building real skills in creative production,
+                    community building, and digital outreach. I document and share this entire journey — technical growth,
+                    leadership lessons, and everything in between — with a developer community on LinkedIn. Open to
+                    full-stack internships, open-source collaborations, and opportunities where I can build, lead, and
+                    keep growing. Let's connect.
+                </p>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <p class="eyebrow">// education</p>
+                <h2>Education</h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Degree</th>
+                                <th>Institution</th>
+                                <th>Duration</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>B.Tech – Electronics &amp; Computer Science</td>
+                                <td>Kalinga Institute of Industrial Technology (KIIT), Bhubaneswar</td>
+                                <td>Jul 2024 – Jul 2028</td>
+                            </tr>
+                            <tr>
+                                <td>Secondary Education, General Studies</td>
+                                <td>Delhi Public School – India</td>
+                                <td>Apr 2017 – Apr 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Elementary Education, General Studies</td>
+                                <td>Radha Madhav Public School</td>
+                                <td>Apr 2011 – Apr 2018</td>
+                            </tr>
+                            <tr>
+                                <td>Elementary Education</td>
+                                <td>Mother Alam Public School</td>
+                                <td>Apr 2010 – Apr 2011</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="work-experience">
+            <div class="container">
+                <p class="eyebrow">// work_experience</p>
+                <h2>Work Experience</h2>
+                <div class="exp-list">
+
+                    <div class="exp-card">
+                        <div class="exp-card-head">
+                            <span class="exp-org">GirlScript Summer of Code — Open Source Contributor &amp; Mentee</span>
+                            <span class="exp-duration">Jun 2026 – Present · 3 mos</span>
+                        </div>
+                        <p class="exp-location">Remote</p>
+                        <p class="desc">
+                            Selected as a Contributor / Mentee at GirlScript Summer of Code 2026 (GSSoC '26), a 3-month
+                            open source program by the GirlScript Foundation. Contributing to open source projects under
+                            the Open Source Track and AI/Agents Track, collaborating with mentors and the global
+                            developer community to build impactful software.
+                        </p>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="exp-card-head">
+                            <span class="exp-org">YHills — Full Stack Web Development Intern</span>
+                            <span class="exp-duration">Jun 2026 – Present · 3 mos</span>
+                        </div>
+                        <p class="exp-location">Remote</p>
+                        <ul>
+                            <li>Building responsive web applications through hands-on projects and practical assignments.</li>
+                            <li>Learning and applying frontend and backend development concepts.</li>
+                            <li>Strengthening programming, problem-solving, and debugging skills through real-world tasks.</li>
+                            <li>Collaborating with mentors and peers while following industry-standard development practices.</li>
+                            <li>Gaining exposure to professional software development workflows and project execution.</li>
+                        </ul>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="exp-card-head">
+                            <span class="exp-org">K-1000 — 1 yr 1 mo</span>
+                            <span class="exp-duration">Aug 2025 – Present</span>
+                        </div>
+                        <p class="exp-location">Bhubaneswar</p>
+
+                        <div class="exp-role">
+                            <p class="exp-role-title">Team Lead</p>
+                            <p class="exp-role-duration">Mar 2026 – Present · 6 mos</p>
+                            <ul>
+                                <li>Led a team of video editors in planning, editing, and delivering content for events, campaigns, and social media platforms.</li>
+                                <li>Assigned tasks, managed project timelines, and ensured high-quality output across multiple projects.</li>
+                                <li>Edited and reviewed videos using DaVinci Resolve and Filmora while maintaining brand consistency.</li>
+                                <li>Collaborated with marketing, design, and event teams to create engaging visual content.</li>
+                                <li>Mentored team members and streamlined editing workflows to improve productivity and delivery efficiency.</li>
+                            </ul>
+                        </div>
+
+                        <div class="exp-role">
+                            <p class="exp-role-title">Assistant Lead</p>
+                            <p class="exp-role-duration">Jan 2026 – Feb 2026 · 2 mos</p>
+                            <ul>
+                                <li>Led a team of video editors to create promotional and event-related content.</li>
+                                <li>Edited videos using DaVinci Resolve and Filmora for social media and marketing campaigns.</li>
+                                <li>Managed project timelines, delegated editing tasks, and ensured timely delivery of content.</li>
+                                <li>Collaborated with marketing and design teams to maintain brand consistency.</li>
+                                <li>Produced engaging short-form and long-form content that increased audience engagement.</li>
+                            </ul>
+                        </div>
+
+                        <div class="exp-role">
+                            <p class="exp-role-title">Video Editor</p>
+                            <p class="exp-role-duration">Aug 2025 – Dec 2025 · 5 mos</p>
+                        </div>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="exp-card-head">
+                            <span class="exp-org">USC.KIIT — Creative Team Member</span>
+                            <span class="exp-duration">Aug 2025 – Oct 2025 · 3 mos</span>
+                        </div>
+                        <p class="exp-location">Bhubaneswar</p>
+                        <p class="desc">
+                            Selected as a member of the Creative Team at USC.KIIT. Collaborated with peers on creative
+                            initiatives and gained exposure to content creation and media production processes.
+                        </p>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="exp-card-head">
+                            <span class="exp-org">Faxis — Creative Department Intern</span>
+                            <span class="exp-duration">Jul 2025 – Oct 2025 · 4 mos</span>
+                        </div>
+                        <p class="exp-location">Bhubaneswar</p>
+                        <p class="desc">
+                            Video editor and creative storyteller focused on turning raw footage into engaging narratives —
+                            paying close attention to pacing, sound design, and visual flow to elevate a video from
+                            "good" to unforgettable.
+                        </p>
+                        <div class="tag-list" style="margin-top:12px;">
+                            <span class="tag alt">Video Editing &amp; Post-Production</span>
+                            <span class="tag alt">Visual Storytelling</span>
+                            <span class="tag alt">Creative Strategy &amp; Brainstorming</span>
+                            <span class="tag alt">DaVinci Resolve</span>
+                            <span class="tag alt">Filmora</span>
+                            <span class="tag alt">CapCut</span>
+                        </div>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="exp-card-head">
+                            <span class="exp-org">Wipro — Campus Ambassador Intern</span>
+                            <span class="exp-duration">Aug 2024 – Oct 2024 · 3 mos</span>
+                        </div>
+                        <p class="exp-location">Bhubaneswar</p>
+                        <ul>
+                            <li>Represented the organization as a Campus Ambassador through online outreach and community engagement.</li>
+                            <li>Promoted programs, events, and opportunities via WhatsApp groups and personal networks.</li>
+                            <li>Shared registration links and informational content to increase awareness and participation.</li>
+                            <li>Assisted in digital marketing and brand promotion initiatives.</li>
+                            <li>Developed communication, networking, and online community-building skills through remote engagement activities.</li>
+                        </ul>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="exp-card-head">
+                            <span class="exp-org">SmartED Innovations — Campus Ambassador Intern</span>
+                            <span class="exp-duration">Jul 2024 – Sep 2024 · 3 mos</span>
+                        </div>
+                        <p class="exp-location">Bhubaneswar</p>
+                        <ul>
+                            <li>Drove user registrations and event participation through WhatsApp-based outreach campaigns.</li>
+                            <li>Leveraged student communities and online networks to promote organizational initiatives.</li>
+                            <li>Assisted in increasing brand visibility through targeted digital communication.</li>
+                            <li>Maintained engagement with potential participants and provided timely information and support.</li>
+                            <li>Supported digital outreach campaigns and community-building initiatives.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <p class="eyebrow">// skills</p>
+                <h2>Skills &amp; Languages</h2>
+
+                <div class="tag-group">
+                    <h3>Top Skills</h3>
+                    <div class="tag-list">
+                        <span class="tag">Curiosity</span>
+                        <span class="tag">Adaptability</span>
+                        <span class="tag">Creativity</span>
+                    </div>
+                </div>
+
+                <div class="tag-group">
+                    <h3>Creative &amp; Tools</h3>
+                    <div class="tag-list">
+                        <span class="tag alt">Video Editing &amp; Post-Production</span>
+                        <span class="tag alt">Visual Storytelling</span>
+                        <span class="tag alt">Creative Strategy &amp; Brainstorming</span>
+                        <span class="tag alt">DaVinci Resolve</span>
+                        <span class="tag alt">Filmora</span>
+                        <span class="tag alt">CapCut</span>
+                    </div>
+                </div>
+
+                <div class="tag-group">
+                    <h3>Languages</h3>
+                    <div class="tag-list">
+                        <span class="tag">Hindi — Native / Bilingual</span>
+                        <span class="tag">English — Professional Working</span>
+                        <span class="tag">Japanese — Elementary</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certification">
+            <div class="container">
+                <p class="eyebrow">// certification</p>
+                <h2>Certification</h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Certification</th>
+                                <th>Issuer</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Learn Java</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>Learn Python Programming</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>AI Tools &amp; ChatGPT Workshop</td>
+                                <td>be10x</td>
+                            </tr>
+                            <tr>
+                                <td>AWS from Zero to Cloud: Hands-on Deployment Workshop</td>
+                                <td>—</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-me">
+            <div class="container">
+                <p class="eyebrow">// contact_me</p>
+                <h2>Contact Me</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Reach me directly</h3>
+                        <dl>
+                            <div>
+                                <dt>Mobile</dt>
+                                <dd><a href="tel:+918353958170">+91 83539 58170</a></dd>
+                            </div>
+                            <div>
+                                <dt>Email</dt>
+                                <dd><a href="mailto:singhpragyan2911@gmail.com">singhpragyan2911@gmail.com</a></dd>
+                            </div>
+                            <div>
+                                <dt>LinkedIn</dt>
+                                <dd><a href="https://www.linkedin.com/in/pragyansinghkiit" target="_blank" rel="noopener">linkedin.com/in/pragyansinghkiit</a></dd>
+                            </div>
+                            <div>
+                                <dt>Location</dt>
+                                <dd>Kanpur, Uttar Pradesh, India</dd>
+                            </div>
+                        </dl>
+                    </div>
+                    <div class="panel">
+                        <form id="contact-form" novalidate>
+                            <div class="field">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="field">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit">Send message</button>
+                            <p class="form-status" id="contact-status" role="status"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Pragyan Singh. All rights reserved. · <a href="https://www.linkedin.com/in/pragyansinghkiit" target="_blank" rel="noopener">LinkedIn</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="shared.js"></script>
+
+</body>
+
+</html>
