@@ -22,7 +22,7 @@
  */
 
 const SHEET_NAME = "Messages";
-const ADMIN_PASSWORD = "REPLACE_WITH_YOUR_OWN_PASSWORD";
+const ADMIN_PASSWORD = "admin123";
 
 function getSheet() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
