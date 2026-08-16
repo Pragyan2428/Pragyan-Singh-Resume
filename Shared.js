@@ -8,7 +8,7 @@
 // switch both pages over to a Google Sheets backend.
 // See Code.gs + README.md for the backend setup.
 // ============================================================
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyK28OMKDCrG8gNQupwJxys-BAMsVBbuW6NDUrN8NH_wYTmKCwUxCb3SgrQIQ4prpo/exec";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwRSS609PVlQOr_sHagURrOemnI5Z1RWo6NWBbTkk4WF_fRS8HNnh3pXM8CwC2wPYEo/exec";
 
 const STORAGE_KEY = "portfolio_messages";
 const THEME_KEY = "portfolio_theme";
